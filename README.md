@@ -1,4 +1,4 @@
-    # rock-papers-scissors-with-python
+# rock-papers-scissors-with-python
 
     import random
 
