@@ -1,18 +1,18 @@
-# rock-papers-scissors-with-python
+    # rock-papers-scissors-with-python
 
-import random
+    import random
 
-name = str(input("Enter your name:\n"))
+    name = str(input("Enter your name:\n"))
 
-choices = ["rock", "papers", "scissors"]
+    choices = ["rock", "papers", "scissors"]
 
-print(f"Hi {name}, choose between rock, papers and scissors")
+    print(f"Hi {name}, choose between rock, papers and scissors")
 
-while True:
-    user_choice = str(input('> '))
-    user_choice = user_choice.lower()
+    while True:
+        user_choice = str(input('> '))
+        user_choice = user_choice.lower()
 
-    if user_choice not in choices:
+        if user_choice not in choices:
         print(f"You chose {user_choice}, please choose rock, paper, or scissors")
         continue
 
@@ -39,3 +39,4 @@ while True:
 
     if user_choice == computer_choice:
         print("Tie!")
+    
